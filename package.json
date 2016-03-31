@@ -1,5 +1,5 @@
 {
-  "name": "js-enum",
+  "name": "enum-support",
   "version": "0.1.0",
   "description": "Support for enums in javascript",
   "main": "index.js",
