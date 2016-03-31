@@ -66,7 +66,7 @@ class Pet {
     // printing the name of the specie
     console.log(Pet.Specie.key(specie));
   }
-};
+}
 
 // creating the enum
 Pet.Specie = new Enum({"Dog": 1, "Cat": 2});
