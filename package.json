@@ -1,0 +1,28 @@
+{
+  "name": "js-enum",
+  "version": "0.1.0",
+  "description": "Support for enums in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulondc/js-enum.git"
+  },
+  "keywords": [
+    "enum"
+  ],
+  "author": "Paulo Nogueira <paulondc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulondc/js-enum/issues"
+  },
+  "homepage": "https://github.com/paulondc/js-enum#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "js-typecheck": "^0.1.0"
+  }
+}
