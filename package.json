@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulondc/js-enum.git"
+    "url": "git+https://github.com/paulondc/enum-support.git"
   },
   "keywords": [
     "enum"
@@ -16,9 +16,9 @@
   "author": "Paulo Nogueira <paulondc@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paulondc/js-enum/issues"
+    "url": "https://github.com/paulondc/enum-support/issues"
   },
-  "homepage": "https://github.com/paulondc/js-enum#readme",
+  "homepage": "https://github.com/paulondc/enum-support#readme",
   "devDependencies": {
     "mocha": "^2.4.5"
   },
