@@ -1,4 +1,4 @@
-# js-typecheck
+# js-enum
 Use enums in javascript
 
 #### About
