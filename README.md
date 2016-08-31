@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/paulondc/enum-support.svg?branch=master)](https://travis-ci.org/paulondc/enum-support)
 
-This modules provides a very simple interface for enums in javascript. The enum is defined as pairs of key & value where the key is defined in "Capital" and the value is defined as a number. This module makes sure the enum does not duplicated values among its members.
+This modules provides a very simple interface for enums in javascript. Enum objects in this implementation are created through a plain object where the key is validated as a string in "Capital" and the value is validated as a number. Also, this module makes sure the enum does not duplicated values among its members.
 
 #### Requirement
 This module requires support for [ES6](http://es6-features.org)
@@ -63,14 +63,14 @@ const Enum = require('enum-support');
 
 class Pet {
   constructor(specie){
-    assert(this.Specie.has(specie), "Invalid Specie!");
+    assert(Pet.Specie.has(specie), "Invalid Specie!");
     
     // printing the name of the specie
-    console.log(this.Specie.key(specie));
+    console.log(Pet.Specie.key(specie));
   }
 }
 
-// creating the enum as part of the class
+// adding the enum as static member of the class
 Pet.Specie = new Enum({"Dog": 1, "Cat": 2});
 
 // using it
