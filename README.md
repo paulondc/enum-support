@@ -1,4 +1,5 @@
-# enum-support
+[![Build Status](https://travis-ci.org/paulondc/enum-support.svg?branch=master)](https://travis-ci.org/paulondc/enum-support)
+
 Support for enums in javascript
 
 #### About
