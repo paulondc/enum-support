@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/paulondc/enum-support.svg?branch=master)](https://travis-ci.org/paulondc/enum-support)
 
-This modules provides a very simple interface for enums in javascript. Enum objects in this implementation are created through a plain object where the key is validated as a string in "Capital" and the value is validated as a number. Also, this module makes sure the enum does not duplicated values among its members.
+This modules provides a fairly simple interface for enums in javascript. The enum object in this implementation is created through a plain object where the keys are required to be defined by either a string in "Capital" or "UPPERCASE" and the values are required to be defined numerically. Also, this module makes sure that an enum does not have duplicated values among its members.
 
 #### Requirement
 This module requires support for [ES6](http://es6-features.org)
@@ -29,7 +29,7 @@ MyEnum.A;
 MyEnum.B;
 ```
 ---
-Checking if key or value are part of the enum
+Checking if a key or value is part of the enum
 ```javascript
 // C is not part of the enum, returns false
 MyEnum.has("C");
