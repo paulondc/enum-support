@@ -23,6 +23,7 @@
     it("Enum should have two members: A and B", function(){
       let foo = new Enum({"A":1, "B": 2});
       assert(foo.has("A") && foo.has("B"));
+      assert(!foo.has("C"));
 
       let members = foo.keys;
       assert(members.indexOf("A") != -1);
@@ -33,6 +34,7 @@
     it("Enum should have two values: 1 and 2", function(){
       let foo = new Enum({"A":1, "B": 2});
       assert(foo.has(1) && foo.has(2));
+      assert(!foo.has(3));
 
       let values = foo.values;
       assert(values.indexOf(1) != -1);
