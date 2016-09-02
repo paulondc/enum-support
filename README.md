@@ -1,6 +1,6 @@
 <img src="data/logo.png"/>
 
-[![Build Status](https://travis-ci.org/paulondc/enum-support.svg?branch=master)](https://travis-ci.org/paulondc/enum-support)[![codecov.io](https://codecov.io/github/paulondc/enum-support/coverage.svg?branch=master)](https://codecov.io/github/paulondc/enum-support?branch=master)
+[![Build Status](https://travis-ci.org/paulondc/enum-support.svg?branch=master)](https://travis-ci.org/paulondc/enum-support) [![codecov.io](https://codecov.io/github/paulondc/enum-support/coverage.svg?branch=master)](https://codecov.io/github/paulondc/enum-support?branch=master)
 
 This modules provides a fairly simple interface for enums in javascript. The enum object in this implementation is created through a plain object where the keys are required to be defined by either a string in "Capital" or "UPPERCASE" and the values are required to be defined numerically. Also, this module makes sure that an enum does not have duplicated values among its members.
 
