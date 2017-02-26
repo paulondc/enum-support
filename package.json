@@ -1,6 +1,6 @@
 {
   "name": "enum-support",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Support for enums in javascript",
   "main": "index.js",
   "scripts": {
