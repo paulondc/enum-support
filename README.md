@@ -4,15 +4,15 @@
 
 This modules provides a fairly simple interface for enums in javascript. The enum object in this implementation is created through a plain object where the keys are required to be defined by either a string in "Capital" or "UPPERCASE" and the values are required to be defined numerically. Also, this module makes sure that an enum does not have duplicated values among its members.
 
-#### Requirement
+## Requirement
 This module requires support for [ES6](http://es6-features.org)
 
-#### Install
+## Install
 ```
 npm install enum-support --save
 ```
 
-#### Usage
+## Usage
 Creating an Enum
 ```javascript
 const Enum = require('enum-support');
@@ -56,7 +56,7 @@ MyEnum.keys;
 MyEnum.values;
 ```
 
-#### Example
+## Example
 ```javascript
 const assert = require("assert");
 const Enum = require('enum-support');
@@ -77,5 +77,5 @@ Pet.Specie = new Enum({"Dog": 1, "Cat": 2});
 var myPet = new Pet(Pet.Specie.Dog);
 ```
 
-#### Licensing
+## Licensing
 enum-support is free software; you can redistribute it and/or modify it under the terms of the MIT License
